@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+.venv/
+.venv*/
+venv/
+
+# Local env/secrets
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# DATA FOLDER - This must be exactly like this to block large files
+data/
+data/*
+
+# Editor/OS
+.vscode/
+.DS_Store
+Thumbs.db

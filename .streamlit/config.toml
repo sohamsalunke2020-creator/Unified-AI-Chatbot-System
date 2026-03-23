@@ -1,0 +1,22 @@
+[theme]
+base = "dark"
+
+[server]
+headless = true
+port = 8502
+address = "127.0.0.1"
+runOnSave = false
+fileWatcherType = "none"
+enableCORS = false
+enableXsrfProtection = false
+enableWebsocketCompression = false
+
+[runner]
+fastReruns = false
+
+[client]
+showErrorDetails = false
+toolbarMode = "auto"
+
+[logger]
+level = "error"
